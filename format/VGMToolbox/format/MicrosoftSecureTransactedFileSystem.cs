@@ -266,6 +266,7 @@ namespace VGMToolbox.format
         // from Free60 wiki
         public static int ComputeDataBlockNumber(int xBlock, uint headerSize, byte blockSeparation)
         {
+            //Keeping the below, as it is from a wiki, seems to be a boolean type thing going on
             int xBlockShift;
 
             if (((headerSize + 0xFFF) & 0xF000) == 0xB000)

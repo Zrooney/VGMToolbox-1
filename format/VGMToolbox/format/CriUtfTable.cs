@@ -803,7 +803,6 @@ namespace VGMToolbox.format
             byte decryptedByte;
 
             StringBuilder asciiVal =  new StringBuilder();
-            byte xorByte;
             long fileSize = fs.Length;
 
             if (this.IsEncrypted)

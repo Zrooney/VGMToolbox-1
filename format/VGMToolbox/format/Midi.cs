@@ -86,7 +86,6 @@ namespace VGMToolbox.format
             set { totalFileLength = value; }
         }
 
-        private string trackName;
 
         public Midi()
         {

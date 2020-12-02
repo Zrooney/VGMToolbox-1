@@ -93,7 +93,6 @@ namespace VGMToolbox.format
         private byte[] totalNumOfSamples;
         private byte[] loopOffset;
         private byte[] loopNumOfSamples;
-        private byte[] vgmData;
 
         public byte[] SignatureTag { get { return this.signatureTag; } }
         public byte[] EofOffset { get { return this.eofOffset; } }
@@ -104,7 +103,6 @@ namespace VGMToolbox.format
         public byte[] TotalNumOfSamples { get { return this.totalNumOfSamples; } }
         public byte[] LoopOffset { get { return this.loopOffset; } }
         public byte[] LoopNumOfSamples { get { return this.loopNumOfSamples; } }
-        public byte[] VgmData { get { return this.vgmData; } }
 
         // All
         public uint FullHeaderSize { set; get; }

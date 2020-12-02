@@ -164,7 +164,6 @@ namespace VGMToolbox.format
             MpegStream.DemuxOptionsStruct demuxOptions)
         {
             GenhCreationStruct gcStruct;
-            ushort frequency;
             string sourceFile;
             string genhFile = null;
 
@@ -174,7 +173,8 @@ namespace VGMToolbox.format
             {
                 if (demuxOptions.AddHeader &&
                    (key != MobiclipWiiStream.VideoChunkId) && 
-                   (this.AudioStreamFeatures[key].StreamType != null) &&
+                   // Commented the below parameter as not sure what it does, seems to be redunant.
+                   //(this.AudioStreamFeatures[key].StreamType != null) &&
                    (this.AudioStreamFeatures[key].StreamType == AudioChunkSignaturePcm))
                 {
                     if (streamWriters[key].Name.EndsWith(this.FileExtensionAudio))

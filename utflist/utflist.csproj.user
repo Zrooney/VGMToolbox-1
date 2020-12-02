@@ -3,4 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartArguments>"C:\VGM\Working\Samples\ACB Samples\mgs3d_adx_sample\mgs3d_adx_sample\bgm_2.acb" "foo" 0 &gt; test.txt</StartArguments>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>"C:\VGM\Working\Samples\ACB Samples\mgs3d_adx_sample\mgs3d_adx_sample\bgm_2.acb" "foo" 0 &gt; test.txt</StartArguments>
+  </PropertyGroup>
 </Project>

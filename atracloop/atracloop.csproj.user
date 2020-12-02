@@ -3,4 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartArguments>"C:\VGM\Working\Demon Gaze [Vita]\bgm\sound_m01.at9" "C:\VGM\Working\Demon Gaze [Vita]\bgm\sound_m01.at3.pos" "C:\VGM\Working\Demon Gaze [Vita]\bgm\!playlist.m3u"</StartArguments>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>"C:\VGM\Working\Demon Gaze [Vita]\bgm\sound_m01.at9" "C:\VGM\Working\Demon Gaze [Vita]\bgm\sound_m01.at3.pos" "C:\VGM\Working\Demon Gaze [Vita]\bgm\!playlist.m3u"</StartArguments>
+  </PropertyGroup>
 </Project>

@@ -464,7 +464,6 @@ namespace VGMToolbox.forms.extraction
 
         private void fileListView_ItemDrag(object sender, ItemDragEventArgs e)
         {
-            int x = 1;
         }
     }
 }

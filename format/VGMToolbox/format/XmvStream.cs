@@ -53,7 +53,6 @@ namespace VGMToolbox.format
         {
             byte[] VideoStreamLength { set; get; }
             byte[] FrameCount { set; get; }
-            XmvAudioStreamHeader[] AudioStreams; 
         }
 
         public struct XmvVideoFrame

@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿//Set the file to have 'None' as build action, as nothing was linked to this (i think).
+// Trying to clean up the error list before new features are added / consildation happens.
+using System.Collections.Generic;
 using System.IO;
 
 using ICSharpCode.SharpZipLib.Checksums;

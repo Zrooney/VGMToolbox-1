@@ -39,17 +39,19 @@ namespace VGMToolbox.format.sdat
         // Tag Hash
         Dictionary<string, string> tagHash = new Dictionary<string, string>();
 
+        //commented out the below code as it was not used, not sure what it is for so just commented it out for now
+
         // general file chunk
-        byte[] magicBytes;
+        /* byte[] magicBytes;
         UInt32 fileSize;
         UInt16 fileHeaderSize; // always 16
-        UInt16 numberOfBlocks; // always 1
+        UInt16 numberOfBlocks; // always 1 */
 
         // SWAV chunk
-        byte[] dataBytes;
+        /* byte[] dataBytes;
         UInt32 swavHeaderSize;
         SwavInfo swavInfo;
-        byte[] data;
+        byte[] data; */
                 
         // FILE INFO
         private const int STD_HEADER_SIGNATURE_OFFSET = 0x00;
